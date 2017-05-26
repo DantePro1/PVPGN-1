@@ -1,0 +1,23 @@
+%event rules donate coin status
+%create request staff online
+%whois whereis where whoami
+%msg m w whisper
+%friends f clan c
+%join j rejoin
+%finger chpass 
+%ping p latency
+%games channels chs 
+%icon
+
+%cmd accept decline
+%chat announce
+%lock unlock mute unmute
+%addacct kick moderate 
+%kill killsession ipban
+%lockacct unlockacct muteacc unmuteacct
+%set command_groups cg
+%admin operator voice devoice deop tmpop
+%announceblue announcered botchatblue botchatred
+%move seticon 
+
+%exit

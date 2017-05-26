@@ -1,0 +1,144 @@
+storage_path = "sql:mode=mysql;host=127.0.0.1;name=battlenet_server;user=root;pass=password;default=0;prefix="
+
+filedir     = "${LOCALSTATEDIR}/files"
+reportdir   = "${LOCALSTATEDIR}/reports"
+chanlogdir  = "${LOCALSTATEDIR}/chanlogs"
+motdfile    = "${SYSCONFDIR}/bnmotd-enUS.txt"
+issuefile   = "${SYSCONFDIR}/bnissue.txt"
+channelfile = "${SYSCONFDIR}/channel.conf"
+newsfile    = "${SYSCONFDIR}/news.txt"
+adfile      = "${SYSCONFDIR}/ad.conf"
+topicfile   = "${SYSCONFDIR}/topics.conf"
+ipbanfile   = "${SYSCONFDIR}/bnban.conf"
+helpfile    = "${SYSCONFDIR}/bnhelp.conf"
+mpqfile     = "${SYSCONFDIR}/autoupdate.conf"
+realmfile   = "${SYSCONFDIR}/realm.conf"
+maildir     = "${LOCALSTATEDIR}/bnmail"
+versioncheck_file = "${SYSCONFDIR}/versioncheck.conf"
+mapsfile    = "${SYSCONFDIR}/bnmaps.conf"
+xplevelfile = "${SYSCONFDIR}/bnxplevel.conf"
+xpcalcfile  = "${SYSCONFDIR}/bnxpcalc.conf"
+#pidfile    = "${LOCALSTATEDIR}/bnetd.pid"
+ladderdir   = "${LOCALSTATEDIR}/ladders"
+command_groups_file = "${SYSCONFDIR}/command_groups.conf"
+tournament_file = "${SYSCONFDIR}/tournament.conf"
+statusdir   = "${LOCALSTATEDIR}/status"
+aliasfile   = "${SYSCONFDIR}/bnalias.conf"
+anongame_infos_file = "${SYSCONFDIR}/anongame_infos.conf"
+DBlayoutfile = "${SYSCONFDIR}/sql_DB_layout.conf"
+supportfile = "${SYSCONFDIR}/supportfile.conf"
+transfile   = "${SYSCONFDIR}/address_translation.conf"
+logfile     = "${LOCALSTATEDIR}/bnetd.log"
+
+fortunecmd  = /usr/games/fortune
+
+#----------------------------------------------------------------------------#
+loglevels = fatal,error,warn,info,debug,trace
+d2cs_version = 0
+allow_d2cs_setname = true
+
+#----------------------------------------------------------------------------#
+iconfile = "icons.bni"
+war3_iconfile = "Battlenet.bni"
+star_iconfile = "icons_STAR.bni"
+tosfile = "tos.txt"
+
+#----------------------------------------------------------------------------#
+allowed_clients = war3,w3xp
+skip_versioncheck = true
+allow_bad_version = true
+allow_unknown_version = true
+version_exeinfo_match = none
+version_exeinfo_maxdiff = 0
+
+#----------------------------------------------------------------------------#
+usersync  = 1
+userflush = 1
+userstep = 100
+latency = 600
+nullmsg = 120
+shutdown_delay = 300
+shutdown_decr = 60
+
+#----------------------------------------------------------------------------#
+new_accounts = true
+#max_accounts = 0
+kick_old_login = true
+ask_new_channel = true
+report_all_games = true
+report_diablo_games = false
+hide_pass_games = true
+hide_started_games = true
+hide_temp_channels = true
+extra_commands = true
+disc_is_loss = false
+ladder_prefix = "ldr_"
+enable_conn_all = true
+hide_addr = false
+chanlog = false
+quota = no
+quota_lines = 100
+quota_time = 60
+quota_wrapline = 256
+quota_maxline = 256
+quota_dobae = 100
+mail_support = true
+mail_quota = 5
+log_notice = " "
+passfail_count = 0
+passfail_bantime = 300
+maxusers_per_channel = 0
+
+#----------------------------------------------------------------------------#
+savebyname = true
+sync_on_logoff = true
+hashtable_size = 61
+account_allowed_symbols = "-_[]"
+account_force_username = false
+max_friends = 200
+
+#----------------------------------------------------------------------------#
+#trackaddrs = "track.bnetd.org,localhost:9999"
+#trackaddrs = "track.pvpgn.org"
+track = 0
+location = "unknown"
+description = "unknown"
+url = "unknown"
+contact_name = "a PvPGN user"
+contact_email = "unknown"
+
+#----------------------------------------------------------------------------#
+servername = "Battlenet"
+max_connections = 1000
+max_concurrent_logins = 0
+use_keepalive = false
+max_conns_per_IP = 0
+servaddrs = ":" # default interface (all) and default port (6112)
+w3routeaddr = "0.0.0.0:6200"
+initkill_timer = 120
+
+#----------------------------------------------------------------------------#
+woltimezone = "-8"
+wollongitude = "36.1083"
+wollatitude = "-115.0582"
+wol_autoupdate_serverhost = "westwood-patch.ea.com"
+wol_autoupdate_username = "update"
+wol_autoupdate_password = "world96"
+
+#----------------------------------------------------------------------------#
+ircaddrs = "127.0.0.1:6667"
+irc_network_name = "Battlenet"
+hostname = "Battlenet"
+irc_latency = 180
+
+#----------------------------------------------------------------------------#
+war3_ladder_update_secs = 300
+XML_output_ladder = true
+output_update_secs = 60
+XML_status_output = true
+
+#-----------------------------------------------------------------------------#
+clan_newer_time = 0
+clan_max_members = 100
+clan_channel_default_private = 0
+clan_min_invites = 0

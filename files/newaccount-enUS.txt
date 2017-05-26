@@ -1,0 +1,20 @@
+Registration via the create account button is disabled. Visit this website for new account registration: http://register.battlenet.id/
+ 
+|c00FF3300Facilities:|c0099cc00
+[*] Added Bot Commands
+[*] Antihack Beta v1.0
+[*] Announcement Request
+[*] Auto Level and Experience
+[*] Custom Icons
+[*] Daily Events
+[*] Free Bothost
+[*] Premium Account
+[*] System Statistics
+[*] Shop
+[*] Quiz Channel
+
+|c00FF3300Support: ?
+|c0099cc00Contact: +628 2112 xxxx
+
+|c00FF0000Regards
+|c00FFFFFFAdministrator

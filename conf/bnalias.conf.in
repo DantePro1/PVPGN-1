@@ -1,0 +1,27 @@
+@
+//j for moves you to channel target.
+[1+]/join ${1-}
+@
+//sd for displays statistics dota.
+[0]/statsdota
+@
+//si for displays statistics imba.
+[0]/statsimba
+@
+//sl for displays statistics lod.
+[0]/statslod
+@
+//o for displays online staff.
+[*]/online
+@
+//r for request announce.
+[1+]/request $(1-)
+@
+//s for displays all staff.
+[0]/staff
+@
+//c for displays your coin.
+[0]/coin
+@
+//i for change and displays your icon.
+[0]/icon

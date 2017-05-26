@@ -1,0 +1,24 @@
+|c00FF0000Welcome, |c00FFFFFF
+This is our private server that is built to be a multiplayer player of Warcraft gamers. We developed some commands and features within this server, such as:
+ 
+|c00FF3300Facilities:|c0099cc00
+[*] Added Bot Commands
+[*] Antihack Beta v1.0
+[*] Announcement Request
+[*] Auto Level and Experience
+[*] Custom Icons
+[*] Daily Events
+[*] Free Bothost
+[*] Premium Account
+[*] System Statistics
+[*] Shop
+[*] Quiz Channel
+|c00FFFFFF 
+Leaver? Leaving the game will be deliberately banned automatically.
+You will be comfortable in the games and also features !forfeit or !remake
+ 
+|c00FF3300Support: ?
+|c0099cc00Contact: +628 2112 xxxx
+ 
+|c00FF0000Regards
+|c00FFFFFFAdministrator
