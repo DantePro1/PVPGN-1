@@ -2666,9 +2666,7 @@ namespace pvpgn
 
 			if (account_set_strattr(account, key, value)<0)
 				message_send_text(c, message_type_error, c, "Unable to set key");
-			else {
-				message_send_text(c, message_type_error, c, "Key set succesfully");
-			}
+			else { }
 			return 0;
 		}
 
